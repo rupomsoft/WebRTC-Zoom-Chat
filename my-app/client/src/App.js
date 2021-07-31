@@ -1,15 +1,15 @@
-import React, {Component} from 'react';
-import io from "socket.io-client";
-class App extends Component {
-    componentDidMount() {
-        const socket = io.connect('/');
-    }
-    render() {
-        return (
-            <div>
-                    <h1>Hello</h1>
-            </div>
-        );
-    }
-}
+import React, {Fragment} from 'react';
+import {BrowserRouter} from "react-router-dom";
+import AppRoute from "./appRoute/AppRoute";
+
+const App = () => {
+    return (
+        <Fragment>
+            <BrowserRouter>
+                <AppRoute/>
+            </BrowserRouter>
+        </Fragment>
+    );
+};
+
 export default App;

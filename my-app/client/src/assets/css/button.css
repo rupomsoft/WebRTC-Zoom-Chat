@@ -1,0 +1,9 @@
+.btn-primary{
+    border-color: #827bd8 !important;
+    background: #827bd8 !important;
+}
+
+
+.btn-rounded {
+    border-radius: 1.5rem;
+}

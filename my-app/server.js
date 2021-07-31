@@ -4,6 +4,7 @@ const http=require('http');
 const expressServer= http.createServer(app);
 const {Server}= require('socket.io');
 const io=new Server(expressServer);
+
 const port = process.env.PORT || 5000; //Line 3
 
 
@@ -17,11 +18,32 @@ app.get('/express_backend',function (req,res){
 
 
 
+
+
+let UserList=[];
+
+
 io.on('connection', function(socket) {
-    console.log('A user connected');
-    socket.on('disconnect', function () {
-        console.log('A user disconnected');
+
+
+    // Accept New User
+    socket.on('CreateNewUser',function (user) {
+        UserList.push(user);
+        io.emit('AnnounceNewJoiner',user['Name']);
+        io.emit('UserList',UserList);
+        socket.PeerID = user['PeerID'];
+    })
+
+    socket.on('disconnect', function() {
+        UserList.map((list,i)=>{
+            if(socket.PeerID===list['PeerID']){
+                let LeftUser= UserList.splice(i, 1);
+                io.emit('UserList',UserList);
+                io.emit('AnnounceLeftJoiner',list['Name']);
+            }
+        })
     });
+
 });
 
 
