@@ -5,3 +5,8 @@
     overflow-y: auto;
     background: #101528 !important;
 }
+
+.video-preview{
+    margin: 5px  !important;
+    border-radius: 5px !important;
+}
