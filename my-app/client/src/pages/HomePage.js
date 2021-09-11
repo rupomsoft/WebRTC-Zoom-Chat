@@ -44,11 +44,9 @@ class HomePage extends Component {
         this.setState({PeerObj:peer})
         peer.on('open',(id)=>{
             if(id.length!==0){
-
                 let MyConnectedPeerList=this.state.ConnectedPeerList;
                 MyConnectedPeerList.push(id);
                 this.setState({ConnectedPeerList:MyConnectedPeerList})
-
                 SessionHelper.setPeerID(id);
                 this.CreateNewUser(id);
                 this.AnnounceNewJoiner();

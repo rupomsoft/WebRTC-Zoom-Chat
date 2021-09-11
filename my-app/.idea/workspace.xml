@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b5c95f-6520-4c64-b34a-0777f7cdac8e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/assets/css/section.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/css/section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/AppBody.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/HomePage.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,11 +33,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.22.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.17" />
+    <property name="javascript.nodejs.core.library.typings.version" value="12.20.20" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -68,6 +69,9 @@
       <workItem from="1627736087626" duration="6705000" />
       <workItem from="1627755538785" duration="3516000" />
       <workItem from="1627790560684" duration="1526000" />
+      <workItem from="1629555231796" duration="1317000" />
+      <workItem from="1629920039762" duration="532000" />
+      <workItem from="1629989641464" duration="598000" />
     </task>
     <servers />
   </component>
