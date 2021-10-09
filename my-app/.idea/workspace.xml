@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78b5c95f-6520-4c64-b34a-0777f7cdac8e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/pages/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/HomePage.js" afterDir="false" />
     </list>
@@ -32,8 +31,8 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.22.1" />
-    <property name="javascript.nodejs.core.library.typings.version" value="12.20.20" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.17.6" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.17.6" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/client/src/assets/images" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -72,6 +71,9 @@
       <workItem from="1629555231796" duration="1317000" />
       <workItem from="1629920039762" duration="532000" />
       <workItem from="1629989641464" duration="598000" />
+      <workItem from="1632909577998" duration="506000" />
+      <workItem from="1633775374914" duration="368000" />
+      <workItem from="1633777808425" duration="2002000" />
     </task>
     <servers />
   </component>

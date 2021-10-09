@@ -10,7 +10,6 @@ import {Redirect} from "react-router";
 import UserList from "../components/UserList";
 const socket= io.connect('/')
 class HomePage extends Component {
-
     constructor() {
         super();
         this.state={
@@ -93,9 +92,6 @@ class HomePage extends Component {
     }
 
 
-
-
-
     GenerateSelfVideoPreview=()=>{
         const myVideo = document.createElement('video')
         myVideo.muted = true
@@ -106,6 +102,8 @@ class HomePage extends Component {
             this.addVideoStream(myVideo, stream)
         })
     }
+
+
     addVideoStream=(video, stream)=> {
         const videoGrid = document.getElementById('video-grid')
         video.srcObject = stream
@@ -117,8 +115,6 @@ class HomePage extends Component {
         })
         videoGrid.append(video)
     }
-
-
 
 
 
